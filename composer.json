@@ -1,0 +1,26 @@
+{
+  "name": "grzegorzkurtyka/yii2-oauth2-spid",
+  "type": "library",
+  "description": "",
+  "keywords": ["oauth2", "spid", "yii", "yii2"],
+  "license": "BSD-3-Clause",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Grzegorz Kurtyka",
+      "email": "grzegorz.kurtyka@schibsted.pl",
+      "homepage": "http://schibsted.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii2-authclient": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\authclient\\clients\\": ""
+    }
+  }
+}
+
